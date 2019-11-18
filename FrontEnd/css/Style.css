@@ -1,0 +1,75 @@
+body {
+  background-color: #f1f3f6;
+}
+body div .form-endereco {
+  box-sizing: border-box;
+  width: 600px;
+  margin: 0 auto;
+}
+body div .celular {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0 auto;
+  width: calc(100%/2.1);
+  display: inline-table;
+}
+body div .form-group {
+  background-color: #b7df77;
+  padding: 20px;
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+}
+body div .form-group label {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body div .form-group span {
+  width: 100px;
+  background-color: #b7df77;
+}
+body div {
+  padding: 15px;
+}
+body h1,
+body h2 {
+  text-align: center;
+}
+body .lista table {
+  /* background-color: green; */
+}
+body .pedido .batata-wrapper {
+  background-color: white;
+  margin: 0 auto;
+  border: 1px solid #e6e6e6;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 34px;
+  border-radius: 3px;
+}
+body .pedido .batata-wrapper h3 {
+  margin-top: 0px;
+  font-size: 20px;
+}
+body .pedido .batata-wrapper .contador-wrapper {
+  text-align: center;
+}
+body .pedido .batata-wrapper .contador-wrapper .contador {
+  width: 30px;
+}
+body .pedido .batata-wrapper .icone-success {
+  position: absolute;
+  font-size: 40px;
+  color: #30b830;
+  right: -11px;
+  top: -17px;
+}
+body .pedido .batata-wrapper .preco {
+  padding: 6px;
+  font-weight: bold;
+}
+body .pedido .batata-wrapper .ingredientes {
+  list-style: square;
+  padding-left: 0;
+}
+body .pedido ul {
+  list-style: none;
+}

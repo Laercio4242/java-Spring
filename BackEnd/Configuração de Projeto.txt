@@ -1,0 +1,29 @@
+produtos
+    inserir         http://localhost:8080/produtos            POST + payload
+    buscarTodos     http://localhost:8080/produtos            GET
+    buscarPorTipo   http://localhost:8080/produtos/batatas    GET
+    buscarUm        http://localhost:8080/produtos/123        GET
+    atualizar       http://localhost:8080/produtos/123        PUT + payload              
+    excluir         http://localhost:8080/produtos/123        DELETE
+
+Pedido
+    inserir
+    buscarTodos
+    buscarUm
+    atualizar
+    excluir
+
+Cliente
+    inserir
+    buscarTodos
+    buscarUm
+    atualizar
+    excluir
+
+
+excluir
+{
+    titulo: 
+    preço: 
+    
+}
